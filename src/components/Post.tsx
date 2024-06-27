@@ -34,7 +34,7 @@ export function Post({ post }:PostProps) {
 
   // Estado de comentários
   const [comments, setComments] = useState([
-    'Post muito bacana, hein?!'
+    'Muito bom, parabéns!! 👏👏'
   ])
 
   const [newCommentText, setNewCommentText] = useState('');
@@ -97,8 +97,8 @@ export function Post({ post }:PostProps) {
       {post.content.map(line => {
         if(line.type === 'paragraph'){
           return <p key={line.content}>{line.content}</p>;
-        } else if (line.type === 'link') {
-          return <p key={line.content}><a href="#">{line.content}</a></p>
+        } else if (line.type === 'link' ) {
+          return <p key={line.content}><a target="_https://project-ignite-feed-ts.vercel.app/" href="https://project-ignite-feed-ts.vercel.app/">{line.content}</a></p>
         }
       })}
     </div>

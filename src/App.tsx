@@ -16,53 +16,25 @@ const posts: PostType [] = [
     },
     content: [
       {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: '👉 jane.design/doctorcare'},      
+      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no Ignite, evento da Rocketseat. O nome do projeto é Ignite Feed 🚀'},
+      {type: 'link', content: '👉 project-ignite-feed-ts'},      
     ],
     publishedAt: new Date('2024-06-25 08:00'),
   },
-  {
-    id: 2,
-    author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CTO @Rocketseat'
-    },
-    content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: '👉 jane.design/doctorcare'},      
-    ],
-    publishedAt: new Date('2024-05-25 08:00'),
-  }, 
  {
-  id: 3,
+  id: 2,
     author: {
       avatarUrl: 'https://github.com/williamjayjay.png',
       name: 'William Gomes',
       role: 'Mobile Developer'
     },
     content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: '👉 jane.design/doctorcare'},      
+      {type: 'paragraph', content: 'Fala pessoal 👋'},
+      {type: 'paragraph', content: 'Finalmente finalizei meu novo site/portfólio. Foi um baita desafio criar todo o design e codar na unha, mas consegui 💪🏻 '},
+      {type: 'link', content: '👉 devonlane.design'},      
     ],
     publishedAt: new Date('2024-06-10 10:00'),
- },
- {
-  id: 4,
-    author: {
-      avatarUrl: 'https://github.com/vidarafael.png',
-      name: 'Rafael Freitas',
-      role: 'FullStack Developer'
-    },
-    content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: '👉 jane.design/doctorcare'},      
-    ],
-    publishedAt: new Date('2024-06-20 19:00'),
- },
+ }
 ];
 
 
@@ -84,7 +56,6 @@ export function App() {
       post={post}
       />
     )
-
      })}
     </main>
     </div>
